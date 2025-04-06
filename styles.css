@@ -58,6 +58,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    text-align: center;
   }
 
 button {
@@ -86,13 +87,14 @@ footer {
     text-decoration: none;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #d8d7ec;
+    background-color: #f1f6f8;
 }
 
 .social-links a img {
     width: 30px;
     height: 40px;
     vertical-align: middle;
+    background-color: #f1f6f8;
 }
 
 body {
