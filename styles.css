@@ -58,6 +58,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block; /* Evita margen blanco por debajo */
+    text-align: center;
   }
 
 button {
@@ -86,7 +87,7 @@ footer {
     text-decoration: none;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #f4f4f4;
+    background-color: #3936eb;
 }
 
 .social-links a img {
