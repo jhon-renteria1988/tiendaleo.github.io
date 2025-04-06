@@ -57,8 +57,7 @@ p {
 img {
     max-width: 100%;
     height: auto;
-    display: block; /* Evita margen blanco por debajo */
-    text-align: center;
+    display: block;
   }
 
 button {
@@ -87,7 +86,7 @@ footer {
     text-decoration: none;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #3936eb;
+    background-color: #d8d7ec;
 }
 
 .social-links a img {
