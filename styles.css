@@ -89,8 +89,7 @@ footer {
     text-decoration: none;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #f1f6f8;
-    color: black; /* Default text color */
+    color: white; /* Default text color */
 }
 
 .social-links a.facebook {
