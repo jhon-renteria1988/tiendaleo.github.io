@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
     <title>TIENDA DE TECNOLOGIA LEO</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <div class="header-left">TIENDA DE TECNOLOGIA LEO</div>
@@ -63,15 +61,15 @@
                 <h4>IPHONE 14 128GB 5G</h4>
                 <p class="text-gray-600">Memoria Interna 128GB <br> Memoria RAM 6GB <br> Sistema Operativo IOS 16 <br> Procesador Apple Chip A15 Bionic 3.2 Ghz <br> Red móvil 2G - 3G - 4G - 5G.</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $2.000.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="IPHONE 14 128GB 5G" data-precio="2000000">Comprar</button>
             </article>
 
             <article>
                 <img src="IMAGENES/motorola.jpeg" alt="Motorola MG85 256GB 5G" class="w-full">
                 <h4>MOTOROLA MG85 256GB 5G</h4>
-                <p class="text-gray-600">Memoria Interna 256GB <br> Memoria RAM 8GB <br> Sistema Operativo Android 14 <br> Procesador Qualcomm Snapdragon 6 Gen 3 2.3 Ghz <br> Red móvil 2G - 3G - 4G - 5G.</p>
+                <p class="text-gray-600">Memoria Interna 256GB <br> Memoria RAM 8GB <br> Sistema Operativo Android 14 <br> Procesador Qualcomm Snapdragon 6 Gen 3 2.3 Ghz <br> Red móvil 2G - 3G - 4G - 5G</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $1.000.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="MOTOROLA MG85 256GB 5G" data-precio="1000000">Comprar</button>
             </article>
 
             <article>
@@ -79,7 +77,7 @@
                 <h4>SAMSUNG GALAXY A06 128GB 4G</h4>
                 <p class="text-gray-600">Memoria Interna 128GB <br> Memoria RAM 4GB <br> Sistema Operativo Android 14 <br> Procesador Mediatek Helio G85 2.0 Ghz <br> Red móvil 2G - 3G - 4G</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $1.500.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="SAMSUNG GALAXY A06 128GB 4G" data-precio="1500000">Comprar</button>
             </article>
         </section>
 
@@ -90,7 +88,7 @@
                 <h4>FUNDAS</h4>
                 <p class="text-gray-600">Fundas para todo tipo de celulares</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: Desde $10.000 hasta $30.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="FUNDAS" data-precio="10000">Comprar</button>
             </article>
 
             <article>
@@ -98,7 +96,7 @@
                 <h4>VIDRIOS</h4>
                 <p class="text-gray-600">Vidrios para todo tipo de celulares</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: Desde $15.000 hasta $20.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="VIDRIOS" data-precio="15000">Comprar</button>
             </article>
 
             <article>
@@ -106,7 +104,7 @@
                 <h4>CARGADORES</h4>
                 <p class="text-gray-600">Cargadores para todo tipo de celulares</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: Desde $16.000 hasta $100.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="CARGADORES" data-precio="16000">Comprar</button>
             </article>
 
             <article>
@@ -114,7 +112,7 @@
                 <h4>CABLES</h4>
                 <p class="text-gray-600">Cables para todo tipo de celulares</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: Desde $12.000 hasta $50.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="CABLES" data-precio="12000">Comprar</button>
             </article>
         </section>
 
@@ -125,15 +123,15 @@
                 <h4>Bose</h4>
                 <p class="text-gray-600">Consigue el altavoz Bose S1 Pro+ en Colombia. <br>Sonido profesional, 11 horas de batería y portátil.</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $3.000.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="Bose" data-precio="3000000">Comprar</button>
             </article>
 
             <article>
                 <img src="IMAGENES/JBL" alt="Parlante JBL Flip 6" class="w-full">
                 <h4>JBL</h4>
-                <p class="text-gray-600">El audaz JBL Flip 6 ofrece sonido potente con una claridad excepcional. <br>Además, es cómodo y fácil de transportar. <br>Cuenta con un diseño resistente al agua.</p>
+                <p class="text-gray-600">El audaz JBL Flip 6 ofrece sonido potente con una claridad excepcional. <br>Además, es cómodo y fácil de transportar. <br>Cuenta con un diseño resistente.</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $500.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="JBL" data-precio="500000">Comprar</button>
             </article>
 
             <article>
@@ -141,8 +139,15 @@
                 <h4>Logitech</h4>
                 <p class="text-gray-600">Parlante cómodo, fácil de usar y con un excelente sonido envolvente.</p>
                 <p class="text-blue-600 font-bold mt-2">Valor: $400.000</p>
-                <button>Comprar</button>
+                <button class="btn-comprar" data-producto="Logitech" data-precio="400000">Comprar</button>
             </article>
+        </section>
+
+        <section id="carrito" class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="lista-carrito"></div>
+            <p id="total-compra">Total: $0</p>
+            <button id="enlace-pago">Pagar</button>
         </section>
     </main>
 
@@ -155,6 +160,7 @@
             <a href="https://www.instagram.com/airetneraerep?igsh=Nzd3Y3Z2bDB0bmFp" target="_blank" class="instagram">Instagram</a>
         </div>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
