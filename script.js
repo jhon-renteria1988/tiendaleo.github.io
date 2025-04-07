@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     enlacePago.addEventListener('click', () => {
-        alert('Redirigiendo a la página de pago');
+        // Redirigir a la página de pago con el monto total
+        window.location.href = `https://www.tu-sitio-de-pago.com?total=${total}`;
     });
 });
