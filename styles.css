@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-size: 18px;
+    color: black;
 }
 
 header {
@@ -59,7 +61,7 @@ img {
     height: auto;
     display: block;
     text-align: center;
-  }
+}
 
 button {
     background-color: #0b0b0f;
@@ -88,6 +90,17 @@ footer {
     border: 2px solid black;
     border-radius: 15px;
     background-color: #f1f6f8;
+    color: black; /* Default text color */
+}
+
+.social-links a.facebook {
+    background-color: blue;
+    color: white;
+}
+
+.social-links a.instagram {
+    background-color: red;
+    color: white;
 }
 
 .social-links a img {
@@ -97,21 +110,16 @@ footer {
     background-color: #f1f6f8;
 }
 
-body {
-    font-size: 18px;
-    color: black;
-}
-    
-@media screen and (max-widht: 800px) {
+@media screen and (max-width: 800px) {
     body {
-      font-size: 16px;
-      color: darkgray;
+        font-size: 16px;
+        color: darkgray;
     }
 }
-  
+
 @media screen and (max-width: 500px) {
-    body{
-      font-size: 14px;
-      color: red;
+    body {
+        font-size: 14px;
+        color: red;
     }
 }
