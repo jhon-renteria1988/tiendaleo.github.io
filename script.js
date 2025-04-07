@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     enlacePago.addEventListener('click', () => {
         // Redirigir a la página de pago con el monto total
-        window.location.href = `https://www.tu-sitio-de-pago.com?total=${total}`;
+        window.location.href = `https://wompi.com/es/co/?total=${total}`;
     });
 });
